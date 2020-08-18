@@ -22,7 +22,7 @@ The Simscape Multibody Link plug-in provides the primary interface for exporting
 - As a test, I made one CAD model assembly of the snake robot with 4 actuated revolute joints and imported into Simulink by the steps asserted above.
 - By default, all actuators have automatically calculated motion control, Hence, on starting simulation shows random movements.
 <img src="/media/ravolute.PNG" width="500" align="left"/>
-<img src="/media/4.PNG" width="410" align="left"/>
+<img src="/media/4.PNG" width="410" >
 <img src="/media/April1.png" width="240" >
 
 
