@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/25/18||11:23:56" using="Simscape Multibody Link Version 5.0" from="SolidWorks 25.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="HAND_V2" uid="HAND_V2" version="367">
+<AssemblyFile name="HAND_V2.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="FINGLER_PART4-4" uid="FINGLER_PART4-4" entityUid="FINGLER_PART4*:*Default">
+<Transform>
+<Rotation>-2.6150956400350367e-016 -0.019723335230100954 0.99980547610392734 1.6653345369377348e-016 0.99980547610392767 0.019723335230100936 -1 3.6082248300317588e-016 -1.3306248163053524e-016</Rotation>
+<Translation>0.045936080162067634 0.11205966440843419 0.083420814015477435</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART4-5" uid="FINGLER_PART4-5" entityUid="FINGLER_PART4*:*Default">
+<Transform>
+<Rotation>0 -0.010291449181484299 0.99994704163457826 0 0.99994704163457826 0.010291449181484299 -1 0 0</Rotation>
+<Translation>0.026294491831915064 0.10706504389859897 0.083420814015477421</Translation>
+</Transform>
+</Instance>
+<Instance name="BASE2-1" uid="BASE2-1" entityUid="BASE2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.05668556690081146 0.030760164768421708 0.075920814015477414</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART4-3" uid="FINGLER_PART4-3" entityUid="FINGLER_PART4*:*Default">
+<Transform>
+<Rotation>0 -0.0072956069496722962 0.99997338670548419 1.1102230246251563e-016 0.99997338670548419 0.0072956069496722962 -1 1.1086589548293633e-016 0</Rotation>
+<Translation>0.06640833383672394 0.10706604501129333 0.083420814015477449</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART3-5" uid="FINGLER_PART3-5" entityUid="FINGLER_PART3*:*Default">
+<Transform>
+<Rotation>0.99994704163457837 -0.010291449181484301 0 0.010291449181484301 0.99994704163457837 0 0 0 1</Rotation>
+<Translation>0.026268763208961342 0.10956491150268539 0.083420814015477421</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART4-1" uid="FINGLER_PART4-1" entityUid="FINGLER_PART4*:*Default">
+<Transform>
+<Rotation>-1.0928757898653885e-016 -0.037693624185809849 0.99928934283106374 0 0.99928934283106374 0.037693624185809842 -0.99999999999999978 0 -1.0721353910249305e-016</Rotation>
+<Translation>0.085253209181750694 0.10204005134406538 0.083420814015477435</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART3-4" uid="FINGLER_PART3-4" entityUid="FINGLER_PART3*:*Default">
+<Transform>
+<Rotation>0.99963562761527902 0.026992813899394247 1.6577151090624381e-016 -0.026992813899394247 0.99963562761527902 0 -1.6581974833416154e-016 0 1</Rotation>
+<Translation>0.0027787758637369004 0.067938516138777244 0.083420814015477435</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART4-2" uid="FINGLER_PART4-2" entityUid="FINGLER_PART4*:*Default">
+<Transform>
+<Rotation>0 0.026992813899394247 0.9996356276152788 0 0.99963562761527891 -0.026992813899394234 -0.99999999999999989 0 0</Rotation>
+<Translation>0.0027112938289884144 0.06543942706973907 0.083420814015477435</Translation>
+</Transform>
+</Instance>
+<Instance name="TIP-3" uid="TIP-3" entityUid="TIP*:*Default">
+<Transform>
+<Rotation>0.99980547610392756 -0.01972333523010094 2.1974352477734507e-016 0.01972333523010094 0.99980547610392756 0 -2.1979865542937565e-016 0 1</Rotation>
+<Translation>0.045679676804076308 0.12505713559778522 0.083420814015477435</Translation>
+</Transform>
+</Instance>
+<Instance name="TIP-1" uid="TIP-1" entityUid="TIP*:*Default">
+<Transform>
+<Rotation>0.99963562761527902 0.026992813899394109 1.2278941333537754e-016 -0.026992813899394109 0.99963562761527902 0 -1.2271868867076503e-016 0 1</Rotation>
+<Translation>0.0030622004096805475 0.078434690228737683 0.083420814015477435</Translation>
+</Transform>
+</Instance>
+<Instance name="TIP-2" uid="TIP-2" entityUid="TIP*:*Default">
+<Transform>
+<Rotation>0.99994704163457826 -0.010291449181484299 -1.7344751322294055e-016 0.010291449181484299 0.99994704163457826 0 1.7346410196488748e-016 0 1</Rotation>
+<Translation>0.026160702992555771 0.1200643554398485 0.083420814015477421</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART2-4" uid="FINGLER_PART2-4" entityUid="FINGLER_PART2*:*Default">
+<Transform>
+<Rotation>0 0.010291449181484301 -0.99994704163457837 0 -0.99994704163457837 -0.010291449181484301 -1 0 0</Rotation>
+<Translation>0.026582652408996613 0.079066526732830766 0.083420814015477421</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART2-2" uid="FINGLER_PART2-2" entityUid="FINGLER_PART2*:*Default">
+<Transform>
+<Rotation>0 0.01972333523010034 -0.99980547610392767 0 -0.99980547610392756 -0.019723335230100329 -1 0 0</Rotation>
+<Translation>0.046488333548510466 0.08406511107752429 0.083420814015477449</Translation>
+</Transform>
+</Instance>
+<Instance name="BASE-1" uid="BASE-1" grounded="true" entityUid="BASE*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0080502726426061599 -0.01717934968100053 -0.0027674011429326267</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART2-5" uid="FINGLER_PART2-5" entityUid="FINGLER_PART2*:*Default">
+<Transform>
+<Rotation>0 -0.026992813899394247 -0.99963562761527891 0 -0.99963562761527891 0.026992813899394247 -1 0 0</Rotation>
+<Translation>0.0019554950398053741 0.037449629496511247 0.083420814015477421</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART2-3" uid="FINGLER_PART2-3" entityUid="FINGLER_PART2*:*Default">
+<Transform>
+<Rotation>0 0.0072956069496722953 -0.99997338670548419 0 -0.99997338670548419 -0.0072956069496722953 -1 0 0</Rotation>
+<Translation>0.066612610831314756 0.079066790183539792 0.083420814015477421</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART2-6" uid="FINGLER_PART2-6" entityUid="FINGLER_PART2*:*Default">
+<Transform>
+<Rotation>0 0.037693624185807795 -0.99928934283106374 0 -0.99928934283106385 -0.037693624185807795 -1 0 0</Rotation>
+<Translation>0.086308630658953417 0.074059949744795781 0.083420814015477435</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART3-1" uid="FINGLER_PART3-1" entityUid="FINGLER_PART3*:*Default">
+<Transform>
+<Rotation>0.9999733867054843 -0.0072956069496723083 0 0.0072956069496723092 0.99997338670548419 -6.3827923663125798e-016 0 6.3837823915946481e-016 1</Rotation>
+<Translation>0.066390094819349738 0.10956597847805703 0.083420814015477435</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART3-2" uid="FINGLER_PART3-2" entityUid="FINGLER_PART3*:*Default">
+<Transform>
+<Rotation>0.99928934283106363 -0.03769362418580964 1.0103213636946397e-016 0.037693624185809634 0.99928934283106363 -3.9893108228115377e-016 0 4.0245584642661915e-016 1</Rotation>
+<Translation>0.085158975121286215 0.1045382747011431 0.083420814015477421</Translation>
+</Transform>
+</Instance>
+<Instance name="FINGLER_PART3-3" uid="FINGLER_PART3-3" entityUid="FINGLER_PART3*:*Default">
+<Transform>
+<Rotation>0.99980547610392745 -0.019723335230100284 -1.2381588809784461e-016 0.019723335230100288 0.99980547610392756 1.6653345369377348e-016 1.2154996010416344e-016 -1.8041124150158794e-016 1.0000000000000002</Rotation>
+<Translation>0.045886771823992395 0.11455917809869406 0.083420814015477462</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-7" uid="SERVO-7" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.026685566900811444 0.008760164768421709 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+<Instance name="TIP-5" uid="TIP-5" entityUid="TIP*:*Default">
+<Transform>
+<Rotation>0.9999733867054843 -0.007295606949672297 -1.0857523207050386e-016 0.007295606949672297 0.9999733867054843 0 1.085791112551537e-016 0 1</Rotation>
+<Translation>0.066313490946378187 0.12006569903846459 0.083420814015477449</Translation>
+</Transform>
+</Instance>
+<Instance name="THUMB_SUPPORT-1" uid="THUMB_SUPPORT-1" entityUid="THUMB_SUPPORT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.013685566900811465 -0.034739835231578281 0.078920814015477403</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-12" uid="SERVO-12" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.0061855669008114627 -0.064967107958851009 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-14" uid="SERVO-14" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.086685566900811459 -0.024239835231578272 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-16" uid="SERVO-16" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.066685566900811455 -0.024239835231578279 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+<Instance name="PAW-1" uid="PAW-1" entityUid="PAW*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 0 3.5041414214731498e-016 -3.5041414214731503e-016 0 -0.99999999999999978 0 -0.99999999999999989 0</Rotation>
+<Translation>0.056685566900811467 -0.027239835231578292 0.086420814015477451</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-11" uid="SERVO-11" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.046685566900811451 0.0057601647684217133 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+<Instance name="TIP-4" uid="TIP-4" entityUid="TIP*:*Default">
+<Transform>
+<Rotation>0.99928934283106374 -0.037693624185809835 1.9388987858746148e-016 0.037693624185809835 0.99928934283106374 0 -1.9394971290133341e-016 0 1</Rotation>
+<Translation>0.084763192067335125 0.11503081280086917 0.083420814015477435</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-13" uid="SERVO-13" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.0061855669008114627 -0.03496710795885101 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-17" uid="SERVO-17" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.066685566900811455 0.0057601647684217203 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-6" uid="SERVO-6" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.026685566900811444 -0.02123983523157829 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-10" uid="SERVO-10" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.046685566900811451 -0.024239835231578286 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-15" uid="SERVO-15" entityUid="SERVO*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-016 0 1 0 1 0 -1 0 1.2246467991473532e-016</Rotation>
+<Translation>0.086685566900811459 0.0057601647684217272 0.086420814015477423</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.078635294258205299 0.086246405997485509 0.083188215158410045</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-6</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.015000000000000006 -0.0050000000000000044</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.078635294258205299 0.081246405997485505 0.093688215158410054</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART2-6</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.010000000000000009 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.058635294258205281 0.091246405997485514 0.083188215158410045</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-3</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.014999999999999999 -0.0049999999999999906</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.058635294258205281 0.086246405997485509 0.091188215158410052</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FINGLER_PART2-3</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.010000000000000009 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.038635294258205277 0.096246405997485518 0.083188215158410045</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-2</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.015000000000000013 -0.0049999999999999975</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.038635294258205277 0.091246405997485514 0.078688215158410041</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART2-2</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.010000000000000009 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.018635294258205287 0.091246405997485514 0.083188215158410045</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-4</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.014999999999999999 -0.0050000000000000114</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.018635294258205287 0.086246405997485509 0.093688215158410054</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART2-4</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.010000000000000009 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>-0.0063647057417947211 0.049632622901358968 0.083188215158410031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-5</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.014999999999999999 -0.0049999999999999992</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>-0.0063647057417947211 0.04463262290135897 0.078688215158410027</Position>
+<Axis>1.2246467991473532e-016 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART2-5</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.0099999999999999985 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-6</Uid>
+</InstancePath>
+<Position>0 -0.018000000000000002 -0.0030000000000000027</Position>
+<Axis>-1.3404698226832159e-016 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-2</Uid>
+</InstancePath>
+<Position>0.0029999999999999888 0.017500000000000002 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART2-6</Uid>
+</InstancePath>
+<Position>0 -0.013000000000000012 -0.0074999999999999928</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FINGLER_PART3-2</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 -0.017500000000000002 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-3</Uid>
+</InstancePath>
+<Position>0 -0.018000000000000002 -0.0029999999999999888</Position>
+<Axis>-1.3010426070051288e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-1</Uid>
+</InstancePath>
+<Position>0.0029999999999999888 0.017500000000000002 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART2-3</Uid>
+</InstancePath>
+<Position>0 -0.012999999999999998 -0.0075000000000000067</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART3-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000165 -0.017500000000000002 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-2</Uid>
+</InstancePath>
+<Position>0 -0.018000000000000002 -0.0030000000000000027</Position>
+<Axis>-1.2861176649305831e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-3</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.017499999999999988 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART2-2</Uid>
+</InstancePath>
+<Position>0 -0.012999999999999984 -0.0074999999999999997</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART3-3</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 -0.017500000000000002 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-4</Uid>
+</InstancePath>
+<Position>0 -0.018000000000000002 -0.0030000000000000061</Position>
+<Axis>-1.3010426069826056e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-5</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.017500000000000016 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FINGLER_PART2-4</Uid>
+</InstancePath>
+<Position>0 -0.012999999999999998 0.0049999999999999975</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART3-5</Uid>
+</InstancePath>
+<Position>-0.0029999999999999992 -0.017500000000000002 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART2-5</Uid>
+</InstancePath>
+<Position>0 -0.017999999999999995 -0.0030000000000000009</Position>
+<Axis>-1.3010426069826053e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-4</Uid>
+</InstancePath>
+<Position>0.0030000000000000009 0.017499999999999988 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART2-5</Uid>
+</InstancePath>
+<Position>0 -0.012999999999999991 -0.0074999999999999997</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART3-4</Uid>
+</InstancePath>
+<Position>-0.0030000000000000005 -0.017500000000000009 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-4</Uid>
+</InstancePath>
+<Position>-0.0030000000000000009 0.017500000000000002 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-2</Uid>
+</InstancePath>
+<Position>0 0.009999999999999995 -0.0029999999999999992</Position>
+<Axis>1.3022749050218282e-016 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART3-4</Uid>
+</InstancePath>
+<Position>0.0030000000000000009 0.0025000000000000022 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART4-2</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.0074999999999999963</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-5</Uid>
+</InstancePath>
+<Position>-0.0029999999999999992 0.017500000000000016 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-5</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 -0.0029999999999999992</Position>
+<Axis>1.3010426069826053e-016 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART3-5</Uid>
+</InstancePath>
+<Position>0.0030000000000000061 0.0024999999999999883 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART4-5</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.0074999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-3</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.017499999999999988 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-4</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 -0.0029999999999999957</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART3-3</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.0025000000000000022 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART4-4</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.0074999999999999997</Position>
+<Axis>-1.251116173794895e-016 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.017499999999999974 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-3</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 -0.0030000000000000165</Position>
+<Axis>1.3010426069826056e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART3-1</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.0025000000000000022 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FINGLER_PART4-3</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000183 -0.0050000000000000114</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART3-2</Uid>
+</InstancePath>
+<Position>-0.0030000000000000165 0.017500000000000002 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-1</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 -0.0030000000000000027</Position>
+<Axis>1.281078868156971e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART3-2</Uid>
+</InstancePath>
+<Position>0.0029999999999999888 0.0025000000000000022 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART4-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.0075000000000000067</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.041579685704266199 0.054939527690607212 0.078688215158410041</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.018635294258205284 0.047939514449422238 0.075688215158410038</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>-0.030000000000000009 0 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.038635294258205284 0.047939514449422238 0.075688215158410038</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-1</Uid>
+</InstancePath>
+<Position>0 0.02300000000000002 0.0030000000000000165</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TIP-4</Uid>
+</InstancePath>
+<Position>0.0030000000000000165 0.009999999999999995 -0.0050000000000000044</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FINGLER_PART4-1</Uid>
+</InstancePath>
+<Position>0 0.018000000000000016 -0.0050000000000000044</Position>
+<Axis>1.7147597371511727e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TIP-4</Uid>
+</InstancePath>
+<Position>0.0072333333333333416 0.0049999999999999906 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-3</Uid>
+</InstancePath>
+<Position>0 0.022999999999999993 -0.0030000000000000027</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TIP-5</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.009999999999999995 -0.0050000000000000044</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>FINGLER_PART4-3</Uid>
+</InstancePath>
+<Position>0 0.018000000000000016 -0.0072333333333333347</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TIP-5</Uid>
+</InstancePath>
+<Position>0.0072333333333333277 0.0050000000000000183 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-4</Uid>
+</InstancePath>
+<Position>0 0.023000000000000007 0.0030000000000000027</Position>
+<Axis>1.251116173794895e-016 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TIP-3</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.010000000000000023 -0.0050000000000000044</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FINGLER_PART4-4</Uid>
+</InstancePath>
+<Position>0 0.01800000000000003 -0.0049999999999999906</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>TIP-3</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.0050000000000000183 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-5</Uid>
+</InstancePath>
+<Position>0 0.02300000000000002 -0.0029999999999999992</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TIP-2</Uid>
+</InstancePath>
+<Position>-0.0029999999999999992 0.009999999999999995 -0.0050000000000000044</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FINGLER_PART4-5</Uid>
+</InstancePath>
+<Position>0 0.018000000000000002 -0.005000000000000001</Position>
+<Axis>1.7347234759768071e-016 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>TIP-2</Uid>
+</InstancePath>
+<Position>-0.0029999999999999992 0.0050000000000000044 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident44">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FINGLER_PART4-2</Uid>
+</InstancePath>
+<Position>0 0.017999999999999988 -0.0049999999999999958</Position>
+<Axis>1.7359557740160302e-016 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TIP-1</Uid>
+</InstancePath>
+<Position>0.0072333333333333338 0.0050000000000000044 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FINGLER_PART4-2</Uid>
+</InstancePath>
+<Position>0 0.022999999999999979 -0.002999999999999997</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TIP-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000009 0.009999999999999995 -0.0050000000000000044</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0.040000000000000022 -0.057999999999999975 0.018000000000000002</Position>
+<Axis>-1.3010426069826051e-016 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>THUMB_SUPPORT-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999995 -0.058000000000000003 0.010499999999999995</Position>
+<Axis>-3.4694469519536137e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>THUMB_SUPPORT-1</Uid>
+</InstancePath>
+<Position>0.012999999999999999 -0.032500000000000001 0.0075000000000000067</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 -0.054999999999999986 0</Position>
+<Axis>-3.4694469519536137e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>THUMB_SUPPORT-1</Uid>
+</InstancePath>
+<Position>0.0030000000000000009 0.010499999999999992 0.014999999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-7</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident59">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0074999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-7</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0074999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-10</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-11</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-10</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident61">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-10</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0074999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-11</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0074999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-12</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-13</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident62">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-12</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-13</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident63">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-12</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0075000000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-13</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0075000000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-14</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-15</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident64">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-14</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-15</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident65">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-14</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0074999999999999928</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-15</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0074999999999999928</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-16</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SERVO-17</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident66">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-16</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-17</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-16</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0074999999999999928</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-17</Uid>
+</InstancePath>
+<Position>-0.0075000000000000067 0.029999999999999999 0.0074999999999999928</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident81">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-7</Uid>
+</InstancePath>
+<Position>0.0075000000000000067 0.029999999999999999 -0.0074999999999999997</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident82">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>THUMB_SUPPORT-1</Uid>
+</InstancePath>
+<Position>0.018000000000000002 0.013499999999999991 0.014999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident83">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.011135294258205284 0.054939527690607212 0.09368821515841004</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-7</Uid>
+</InstancePath>
+<Position>-0.0074999999999999928 0.029999999999999999 -0.0074999999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-10</Uid>
+</InstancePath>
+<Position>0.0075000000000000067 0.029999999999999999 -0.0075000000000000067</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident85">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.031135294258205291 0.054939527690607212 0.09368821515841004</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-10</Uid>
+</InstancePath>
+<Position>-0.0074999999999999928 0.029999999999999999 -0.0074999999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident86">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 -0.054999999999999986 0</Position>
+<Axis>-3.4694469519536137e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident88">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-16</Uid>
+</InstancePath>
+<Position>0.0075000000000000067 0.029999999999999999 -0.0075000000000000067</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident89">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 -0.054999999999999986 0</Position>
+<Axis>-3.4694469519536137e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-16</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident90">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.051135294258205288 0.054939527690607212 0.075688215158410038</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-17</Uid>
+</InstancePath>
+<Position>-0.0074999999999999928 0.029999999999999999 -0.0074999999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident91">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-15</Uid>
+</InstancePath>
+<Position>0.0075000000000000067 0.029999999999999999 -0.0074999999999999928</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident92">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0.071135294258205292 0.054939527690607212 0.09368821515841004</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-15</Uid>
+</InstancePath>
+<Position>-0.0074999999999999928 0.029999999999999999 -0.0075000000000000067</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident93">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 -0.054999999999999986 0</Position>
+<Axis>-3.4694469519536137e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-14</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident94">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-13</Uid>
+</InstancePath>
+<Position>0.0075000000000000067 0.029999999999999999 -0.0074999999999999997</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident95">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>THUMB_SUPPORT-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 -0.030227272727272714 0.014999999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-12</Uid>
+</InstancePath>
+<Position>-0.0074999999999999928 0.029999999999999999 -0.0074999999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident96">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>THUMB_SUPPORT-1</Uid>
+</InstancePath>
+<Position>0 -0.030227272727272714 0.014999999999999999</Position>
+<Axis>-2.312964634635742e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident100">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0 -0.057999999999999989 0</Position>
+<Axis>3.4694469519536137e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PAW-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>0.029999999999999985 -0.057999999999999982 0.010500000000000009</Position>
+<Axis>-3.4694469519536137e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PAW-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999978 0 0.0029999999999999992</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric39">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE2-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999995 -0.058000000000000003 0.010499999999999995</Position>
+<Axis>-3.4694469519536137e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PAW-1</Uid>
+</InstancePath>
+<Position>0.029999999999999995 0 0.0029999999999999992</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="BASE" uid="BASE*:*Default" version="110">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="BASE.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.022063876209051047</Mass>
+<CenterOfMass>0.038331846771637895 0.057459454518385043 0.083951726306849592</CenterOfMass>
+<Inertia>8.0569380521993249e-006 1.846364202982968e-005 2.5330190475912498e-005 -5.623543678648602e-007 1.0409184194102346e-007 -5.8478749956529493e-006</Inertia>
+</MassProperties>
+<GeometryFile name="BASE_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BASE2" uid="BASE2*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BASE2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018418407105255379</Mass>
+<CenterOfMass>0 -0.032335043813508255 0.0031854243581569902</CenterOfMass>
+<Inertia>7.6802986789519859e-006 1.0138543208558325e-005 1.7207559389859561e-005 7.5014867454785994e-007 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BASE2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="0.75294117647058822" a="1"/>
+<Diffuse r="0" g="0" b="0.75294117647058822" a="1"/>
+<Specular r="0" g="0" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FINGLER_PART2" uid="FINGLER_PART2*:*Default" version="153">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FINGLER_PART2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018013539472746649</Mass>
+<CenterOfMass>5.0777077347875113e-012 -0.00035045316350927451 -1.2429083811650432e-012</CenterOfMass>
+<Inertia>1.2912819106558711e-007 3.6332305106485791e-008 1.1814179707596015e-007 0 -6.3824917241765527e-016 0</Inertia>
+</MassProperties>
+<GeometryFile name="FINGLER_PART2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FINGLER_PART3" uid="FINGLER_PART3*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FINGLER_PART3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011349030613242569</Mass>
+<CenterOfMass>0 -0.0075000000000000223 7.1167659481325207e-015</CenterOfMass>
+<Inertia>7.7721124759149942e-008 9.9142946537081059e-009 7.5318393697751169e-008 -1.5317142353520336e-014 -2.3510575696628219e-014 0</Inertia>
+</MassProperties>
+<GeometryFile name="FINGLER_PART3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Diffuse r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Specular r="0.45490196078431372" g="0.22156862745098038" b="0.015686274509803921" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FINGLER_PART4" uid="FINGLER_PART4*:*Default" version="164">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FINGLER_PART4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010349490207642292</Mass>
+<CenterOfMass>0 0.011499999999999998 0</CenterOfMass>
+<Inertia>4.2951597786744881e-008 2.6867396421316814e-008 3.8125299989736563e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="FINGLER_PART4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PAW" uid="PAW*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PAW.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011135943325105173</Mass>
+<CenterOfMass>0 0.0043051245094317733 0.022975747659333919</CenterOfMass>
+<Inertia>3.4807890728783884e-006 6.5327169447611224e-006 3.2069125313711821e-006 -4.195464610397937e-008 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="PAW_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.5" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SERVO" uid="SERVO*:*Default" version="187">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SERVO.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0061483027950326461</Mass>
+<CenterOfMass>-1.8613510821602814e-005 0.01487988165669355 -1.083551513578026e-007</CenterOfMass>
+<Inertia>5.5109564994621309e-007 2.2904481763076563e-007 5.6079740953227901e-007 8.9868701707223822e-012 4.6866369902921415e-012 4.1882727165675181e-010</Inertia>
+</MassProperties>
+<GeometryFile name="SERVO_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="0" a="1"/>
+<Diffuse r="0" g="0" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="THUMB_SUPPORT" uid="THUMB_SUPPORT*:*Default" version="141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="THUMB_SUPPORT.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0031836665362080297</Mass>
+<CenterOfMass>0.0019071490750428382 -0.0085117920771783356 0.0075000000000000006</CenterOfMass>
+<Inertia>9.4549796974574923e-007 1.7285832054925899e-007 9.9661659908766482e-007 0 0 -2.152001229309276e-007</Inertia>
+</MassProperties>
+<GeometryFile name="THUMB_SUPPORT_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0" b="0" a="1"/>
+<Diffuse r="0.75294117647058822" g="0" b="0" a="1"/>
+<Specular r="0.37647058823529411" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TIP" uid="TIP*:*Default" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TIP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0021083405851476575</Mass>
+<CenterOfMass>7.2340189480819128e-009 0.015830146439456221 0</CenterOfMass>
+<Inertia>1.3166937194279334e-007 4.1503535135641083e-008 1.2710766390868021e-007 0 -1.9931897507174168e-014 -1.3758935622835576e-013</Inertia>
+</MassProperties>
+<GeometryFile name="TIP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
