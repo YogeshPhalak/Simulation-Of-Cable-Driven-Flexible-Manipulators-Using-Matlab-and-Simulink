@@ -65,4 +65,12 @@ The Simscape Multibody Link plug-in provides the primary interface for exporting
 <img src="/media/fingerCapture.PNG" />
 
 - In this setup the user can control the cable manually and verify the results from the simulation in the same way as in real environment.
+<img src="/media/Simulink.PNG" />
 
+## PID controller
+
+- A proportional–integral–derivative controller (PID controller or three term controller) is a control loop feedback mechanism widely used in industrial control systems and a variety of other applications requiring continuously modulated control. A PID controller continuously calculates an error value ```{\displaystyle e(t)}``` e(t) as the difference between a desired setpoint (SP) and a measured process variable (PV) and applies a correction based on proportional, integral, and derivative terms (denoted P, I, and D respectively).
+- I made one PID controller using Simulink blocks given below but Simulink PID Controller Block is used in the simulation of the given CAD models. ```PID controller Block``` is tuned I to get required gain values for desired reaction time.
+<img src="/media/pid2.PNG" />
+<img src="/media/pid.PNG" />
+<img src="/media/PID blokd.PNG" />
