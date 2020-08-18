@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/27/18||23:30:55" using="Simscape Multibody Link Version 5.0" from="SolidWorks 25.5.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="test pid clock" uid="test pid clock" version="107">
+<AssemblyFile name="test pid clock.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="test plate-1" uid="test plate-1" grounded="true" entityUid="test plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038617621702545915 0.054222985129257543 0.072693423496187293</Translation>
+</Transform>
+</Instance>
+<Instance name="test tie-1" uid="test tie-1" entityUid="test tie*:*Default">
+<Transform>
+<Rotation>0.77581425137236171 -0.63096136757137689 0 0.63096136757137689 0.77581425137236171 0 0 0 1</Rotation>
+<Translation>0.038617621702545922 0.054222985129257543 0.072693423496187293</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>test plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>test tie-1</Uid>
+</InstancePath>
+<Position>0 0 0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>test plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>test tie-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="test plate" uid="test plate*:*Default" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="test plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015957966651891815</Mass>
+<CenterOfMass>7.4797851753407144e-016 7.6532508793551134e-015 0.0011142136285162635</CenterOfMass>
+<Inertia>1.0193251344167883e-005 1.0193251344167829e-005 2.0368989910265659e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="test plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="test tie" uid="test tie*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="test tie.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00017649695543490166</Mass>
+<CenterOfMass>7.46972347602916e-007 0.01749067407398102 0.0030728072277486696</CenterOfMass>
+<Inertia>3.8604186905921436e-008 3.1420911280056163e-010 3.8601540634679421e-008 -1.3187657562516533e-009 -5.6320388151917217e-014 -6.0430280543550753e-012</Inertia>
+</MassProperties>
+<GeometryFile name="test tie_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0" b="0" a="1"/>
+<Diffuse r="1" g="0" b="0" a="1"/>
+<Specular r="0.5" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
