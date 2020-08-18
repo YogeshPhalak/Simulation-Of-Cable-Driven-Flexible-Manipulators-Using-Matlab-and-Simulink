@@ -23,3 +23,6 @@ Ongoing things:
 -	I have made the assembly of the cad model of the snake robot on which we were working on, but for learning purpose and complexities in the original assembly I assembled one test snake model.
 -	I imported the test snake model in the MATLAB and given the angles to the actuators as per the forward gait we were using in the original snake.
 -	I have attached the videos of both the cad models (original snake robot and test snake robot), video of the experiment on the snake model in the laboratory and the simulation of test snake with forward gait implemented.
+
+<img src="/reports/Report1/1.gif"/>
+<img src="/reports/Report1/2.gif"/>
