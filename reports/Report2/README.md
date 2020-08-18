@@ -26,3 +26,5 @@ Ongoing things:
 
 <img src="/reports/Report2/1.gif">
 <img src="/reports/Report2/2.gif">
+
+<img src="/reports/Report2/derived mathematical model.png">
